@@ -9,7 +9,7 @@ import { Carousel } from "antd";
 function HomeScreen() {
   return (
     <div className="homeScreen-Box1">
-      <WebsiteHeader />
+      {/* <WebsiteHeader /> */}
       <div className="homeScreen-Box2">
         <div>
           <Carousel autoplay dotPosition="right" effect="fade">
@@ -28,7 +28,7 @@ function HomeScreen() {
           <div className="homeScreen-Txt1">Redefining Identity</div>
         </div>
       </div>
-      <WebsiteFooter />
+      {/* <WebsiteFooter /> */}
     </div>
   );
 }
