@@ -1,7 +1,6 @@
 .homeScreen-Box1 {
   width: 100%;
   height: 100vh;
-  background-color: rgb(242, 255, 0);
 }
 .homeScreen-Box2 {
   width: 100%;
@@ -10,27 +9,69 @@
   position: relative;
 }
 .homeScreen-Box3 {
-  width: 58%;
-  height: 78vh;
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
+}
+.homeScreen-Box4 {
+  width: 60%;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.homeScreen-Box4 {
+.homeScreen-Box5 {
+  width: 377px;
+  height: 325px;
 }
+.homeScreen-Box6 {
+  width: 100%;
+  height: 140px;
+}
+.homeScreen-Box7 {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+.homeScreen-Box10 {
+  width: 100%;
+  height: 15vh;
+}
+
 .homeScreen-carousalImg {
   height: 100vh;
   width: 100%;
   object-fit: cover;
 }
-.homeScrn-Logo {
-  width: 360px;
-  height: 137px;
-}
 .homeScreen-Txt1 {
   color: white;
-  font-weight: bold;
+}
+.homeScreen-Txt2 {
+  color: white;
+}
+.homeScreen-Box8 {
+  background-color: #ef3e22;
+  height: 44px;
+  width: 165px;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+}
+.homeScreen-Box9 {
+  height: 44px;
+  width: 165px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 16px;
 }
