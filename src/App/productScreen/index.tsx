@@ -1,7 +1,7 @@
 import React from "react";
 
 function ProductScreen() {
-  return <div>ProductScreen</div>;
+  return <div className="productScreen-Box1">Product-Screen</div>;
 }
 
 export default ProductScreen;
