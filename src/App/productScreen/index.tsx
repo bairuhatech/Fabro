@@ -1,17 +1,22 @@
 import React from "react";
-import Collections from "./component/block1";
-import ProductSearch from "./component/block2";
+import "./styles.scss";
+import FindYourProjuct from "./component/block1";
+import ProductCollection from "./component/block2";
 
 function ProductScreen() {
   return (
-    <>
-      <div>
-        <Collections />
+    <div className="productScreen-Box1">
+      <div className="productScreen-Box2">
+        <div className="productScreen-Box3">
+          <FindYourProjuct />
+        </div>
       </div>
-      <div>
-        <ProductSearch />
+      <div className="productScreen-Box4">
+        <div className="productScreen-Box5">
+          <ProductCollection />
+        </div>
       </div>
-    </>
+    </div>
   );
 }
 
