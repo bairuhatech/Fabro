@@ -1,7 +1,8 @@
 import React from "react";
 import "./styles.scss";
-import FindYourProjuct from "./findYourProjuct";
-import ProductCollection from "./productCollection";
+import FindYourProjuct from "./component/block1";
+import ProductCollection from "./component/block2";
+
 function ProductScreen() {
   return (
     <div className="productScreen-Box1">
