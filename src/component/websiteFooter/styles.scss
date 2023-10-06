@@ -1,5 +1,342 @@
-.footer {
-  width: 100%;
-  height: 340px;
-  background-color: #6e6e72;
+.footer{
+  // width: 100%;
+  // height: 340px;
+  // background-color: #6e6e72;
+  width:Hug(1,920px);
+  height:Hug(363.36px);
+  top: 2842.56px;
+  left: 0.18px; 
+}
+.footer-Main{
+  width: Fixed (1,920px);
+  height: Hug(329.36px);
+  padding: 70px, 8px, 70px, 8px;
+  gap: 8px;
+  background: #6E6E72;
+}
+.footer-Box{
+  width:  Hug(1,239.77px);
+  height:  Hug(189.36px);
+  gap: 8px;
+  display: flex;
+  padding:40px;
+}
+.image_logo{
+  width: 218.27px;
+  height: 107.26px;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+.col-md-3{
+  width: Fixed (292.5px);
+  height:Hug(112px);
+  padding: 0px, 15px, 0px, 15px;
+
+}
+.footerInfo_Contacts{
+  width: Fill (262.5px);
+  height: Hug(112px);
+  gap: 20px;
+}
+.contact1{
+  width: Fill (262.5px);
+  height:  Hug(24px);
+  padding: 0px, 62.5px, 0px, 0px;
+  display: flex;
+}
+.contactImage1{
+  width: Fixed (35px);
+  height:Hug(24px);
+  padding: 0px, 14.5px, 0px, 2.5px;
+}
+.contactImage_location{
+  width: 18px;
+  height: 24px;
+  margin-right: 10px;
+}
+.contact1 p{
+  width: 179px;
+  height: 24px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-top: 0px;
+}
+.contact2{
+  width: Fill (262.5px);
+  height:Hug(24px);
+  padding: 0px, 109.5px, 0px, 0px;
+  display: flex;
+}
+.contactImage2{
+  width: Fixed (35px);
+  height:Hug(22.14px);
+  padding: 0px, 17.5px, 0px, 5.5px;
+}
+.contactImage_phone{
+  width: 12px;
+  height: 22.14px;
+  margin-right: 10px;
+}
+.contact2 p{
+  width:Hug(105px);
+  height:Hug(24px);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-top: 0px;
+}
+.contact3{
+  width: Fill (262.5px);
+  height:Hug(24px);
+  padding: 0px, 14.5px, 0px, 0px;
+  display: flex;
+}
+.contactImage3{
+  width: Fixed (35px);
+  height: Hug(14.52px);
+  padding: 0px, 14.5px, 0px, 2.5px;
+}
+.contactImage_envelope{
+  width: 18px;
+  height: 14.52px;
+  margin-right: 10px;
+}
+.contact3 p{
+  width: Hug(227px);
+  height: Hug(24px);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-top: 0px;
+}
+.row1{
+  padding-left: 18px;
+}
+.col1-md-3{
+  width: Fixed (292.5px);
+  height: Hug(175px);
+  padding: 0px, 80.62px, 0px, 80.63px;
+}
+.footerInfo_Info1{
+  width: Fixed (131.25px);
+  height: Hug(70px);
+  padding: 0px, 87.25px, 0px, 0px;
+}
+.link1{
+  width: 112px;
+  height: 35px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.link2{
+  width: 47px;
+  height: 35px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.footerInfo_Info2{
+  width: Fixed (131.25px);
+  height: Hug(35px);
+  padding: 0px, 88.25px, 0px, 0px;
+}
+.link3{
+  width: 48px;
+  height: 35px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.footerInfo_Info3{
+  width: Fixed (131.25px);
+  height: Hug(35px);
+  padding: 0px, 66.25px, 0px, 0px;
+  
+}
+.link4{
+  width: 69px;
+  height: 35px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.footerInfo_Info4{
+  width: Fixed (131.25px);
+  height: Hug(35px);
+  padding: 0px, 52.25px, 0px, 0px;
+}
+.link5{
+  width: 84px;
+  height: 35px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.footerMedia{
+  width: Hug(412.5px);
+  height: Hug(189.36px);
+  gap: 20px;
+  padding-left: 10px;
+}
+.footerMedia_Box1{
+  width: Hug(412.5px);
+  height: Hug(37px);
+}
+.footerMedia_Box2{
+  width: Hug(156px);
+  height: Hug(51px);
+  gap: 6px;
+}
+.footerMedia_Box2 p{
+  width: 77px;
+  height: 15px;  
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+.footerMediaBox2_icons{
+  width: Hug(156px);
+  height: Hug(30px);
+  gap: 12px;
+  display: flex;
+  align-items: center;
+}
+.icon{
+  width: Hug(30px);
+  height: Hug(30px);
+  gap: 8px;
+}
+.icon-Vector{
+  width: 30px;
+  height: 30px;
+  border: 1px;
+  rotate: -0°;
+  background: linear-gradient(0deg, #6E6E72, #6E6E72),
+  linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  border: 1px solid #6E6E72;
+  color: white;
+}
+.footerCards{
+  width: 176px;
+  height: 61.36px;
+}
+.footerCards p{
+  width: 67px;
+  height: 15px;
+  top: 5px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+.paymentList{
+  width: Hug(184px);
+  height: Hug(32px);
+  top: 26px;
+  left: -4px; 
+}
+.Image_Margin{
+  width: Fixed (46px);
+  height: Fill (32px);
+  padding: 4px ;
+}
+.image{
+  width: Fill (38px);
+  height: Fixed (24px);
+}
+.imgFrame{
+  width: 38px;
+  height: 24px;
+  display: flex;
+}
+.imgFrame img{
+  margin-right: 5px;
+}
+.footerSmall{
+  width: Fixed (1,920px);
+  height: Hug(34px);
+  padding: 8px;
+  gap: 8px;
+  background: #000000;
+  text-align: center;
+}
+.link6{
+  width: 408px;
+  height: 18px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+ 
+   .footer-Box {
+    flex-direction: column;
+   }
+
+ 
+}
+
+@media screen and (max-width: 576px) {
+  
+  .footerInfo_Contacts,
+  .footerInfo_Info1,
+  .footerInfo_Info2,
+  .footerInfo_Info3,
+  .footerInfo_Info4 {
+    text-align: center; 
+  }
+
+ 
 }
