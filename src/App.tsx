@@ -1,19 +1,15 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import HomeScreen from "./App/homeScreen";
-import { ConfigProvider } from "antd";
+
+import Home from "./App/index";
 
 function App() {
   return (
-    <div>
-      <ConfigProvider>
-        <Routes>
-          <Route index element={<HomeScreen />} />
-        </Routes>
-      </ConfigProvider>
-    </div>
+    <>
+      <Routes>
+        <Route index element={<Home />} />
+      </Routes>
+    </>
   );
 }
 
