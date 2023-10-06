@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <WebsiteHeader />
-      {/* <HomeScreen /> */}
+      <HomeScreen />
       <ProductScreen />
       <ContactScreen />
       <WebsiteFooter />
