@@ -2,10 +2,9 @@ import React from "react";
 import "./styles.scss";
 import logos from "../../asset/image/logos.png";
 import Vector from '../../asset/image/Vector.png';
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Component } from "react";
-
+import { FaShoppingCart } from 'react-icons/fa';
+ 
 class WebsiteHeader extends Component {
   state = {
     clicked: false,
@@ -38,7 +37,7 @@ class WebsiteHeader extends Component {
                   <div>
                    <div className="cart">
                     <div className="carts">
-                    <FontAwesomeIcon icon={faShoppingCart} />
+                    <FaShoppingCart />
                       </div> 
                     <div className="cart-count">Cart</div>
                  </div>
