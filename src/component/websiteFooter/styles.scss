@@ -1,3 +1,4 @@
+@use "../../config/variables.scss" as vars;
 .websiteFooter-Box1 {
   // min-height: 50%;
   width: 100%;
@@ -9,53 +10,77 @@
 .websiteFooter-Box2 {
   // height: 30vh;
   padding: 40px;
-  width: 90%;
-}
-.websiteFooter-Box3 {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-}
-.websiteFooter-Box4 {
-  display: flex;
-  justify-content: space-around;
-}
-.websiteFooter-Txt1 {
-  color: #fff !important;
+  width: 76%;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    padding: 10px;
+  }
+  @media screen and (min-width: 990px) and (max-width: 1160px) {
+    width: 100%;
+    padding: 20px;
+  }
+  @media screen and (min-width: 1160px) and (max-width: 1373px) {
+    width: 87%;
+    padding: 20px;
+  }
 }
 
-.websiteFooter-Box444 {
+.websiteFooter-Box4 {
   display: flex;
   justify-content: space-between;
   width: 150px;
 }
-.websiteFooter-Img2 {
-  height: 30px;
-  width: 30px;
+.websiteFooter-Box5 {
+  display: flex;
 }
-.websiteFooter-Boxes {
+.websiteFooter-Box6 {
   display: flex;
   justify-content: center;
   color: #fff;
   background-color: black;
   padding: 10px;
 }
-.websiteFooter-Img1 {
-  width: 218px;
-  height: 108px;
-  border-radius: 4px;
 
-  @media screen and (min-width: 320px) and (max-width: 768px) {
-    width: 150px;
-    height: 70px;
-  }
-}
-.websiteFooter----imagesss {
+.websiteFooter-Img2 {
   width: 15px;
   height: 21px;
-  // padding-left: -10px;
+  margin-right: 8px;
 }
-.websiteFooter-textesssss {
+.websiteFooter-Img3 {
+  height: 30px;
+  width: 30px;
+}
+
+.websiteFooter-Txt1 {
   color: white;
-  // width: 100%;
+  font-family: vars.$Poppins-Medium;
+  font-size: 15px;
+  padding-left: 12px;
+}
+.websiteFooter-Txt2 {
+  color: #fff;
+  font-family: vars.$Poppins-SemiBold;
+  font-size: 15px;
+}
+
+.websiteFooter-Img1 {
+  width: 100%;
+}
+.websitefooter-inputsearch {
+  width: 100%;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    width: 70%;
+  }
+}
+.websiteFooter-Box12345 {
+  display: flex;
+  justify-content: center;
+  width: 175px;
+  height: 102px;
+  border-radius: 4px;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
 }

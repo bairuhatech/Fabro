@@ -21,73 +21,67 @@ function WebsiteFooter() {
       <div className="websiteFooter-Box1">
         <div className="websiteFooter-Box2">
           <Row>
-            <Col md={5}>
-              <div
-                className=""
-                style={{
-                  display: "flex",
-                  justifyContent: "space-evenly",
-                }}
-              >
-                <div>
-                  <img className="websiteFooter-Img1" src={FabriImage} />
-                </div>
-                <div>
-                  <p className="websiteFooter-textesssss">
-                    <img src={location} className="websiteFooter----imagesss" />
-                    RIYADH-SAUDI ARABIA
-                  </p>
-                  <p className="websiteFooter-textesssss">
-                    <img src={Phone} />
-                    +966112390116
-                  </p>
-                  <p className="websiteFooter-textesssss">
-                    <img src={Mailfrom} />
-                    fabrosocialonline@gmail.com
-                  </p>
-                </div>
+            <Col md={6} lg={2}>
+              <div className="websiteFooter-Box12345">
+                <img className="websiteFooter-Img1" src={FabriImage} />
               </div>
             </Col>
-            <Col md={2}>
-              <div className="websiteFooter-Box333">
-                <p className="websiteFooter-Txt1">USEFUL LINKS</p>
-                <p className="websiteFooter-Txt1">Home</p>
-                <p className="websiteFooter-Txt1">About</p>
-                <p className="websiteFooter-Txt1">Products</p>
-                <p className="websiteFooter-Txt1">Contact Us</p>
-              </div>
-            </Col>
-            <Col md={5}>
+            <Col md={6} lg={4}>
               <div>
-                <div className="">
-                  <Input.Search
-                    placeholder="Enter your email"
-                    allowClear
-                    enterButton="SUBSCRIBE"
-                    size="large"
-                    className="websitefooter-inputsearch"
-                  />
-                </div>
+                <p className="websiteFooter-Txt1">
+                  <img src={location} className="websiteFooter-Img2" />
+                  RIYADH-SAUDI ARABIA
+                </p>
+                <p className="websiteFooter-Txt1">
+                  <img src={Phone} className="websiteFooter-Img2" />
+                  +966112390116
+                </p>
+                <p className="websiteFooter-Txt1">
+                  <img src={Mailfrom} className="websiteFooter-Img2" />
+                  fabrosocialonline@gmail.com
+                </p>
+              </div>
+            </Col>
+            <Col md={6} lg={2}>
+              <div>
+                <p className="websiteFooter-Txt2">USEFUL LINKS</p>
+                <p className="websiteFooter-Txt2">Home</p>
+                <p className="websiteFooter-Txt2">About</p>
+                <p className="websiteFooter-Txt2">Products</p>
+                <p className="websiteFooter-Txt2">Contact Us</p>
+              </div>
+            </Col>
+            <Col md={6} lg={4}>
+              <div>
+                {/* <div className=""> */}
+                <Input.Search
+                  placeholder="Enter your email"
+                  allowClear
+                  enterButton="SUBSCRIBE"
+                  size="large"
+                  className="websitefooter-inputsearch"
+                />
+                {/* </div> */}
                 <div>
                   <br />
-                  <p className="websiteFooter-Txt1">Social Media</p>
-                  <div className="websiteFooter-Box444">
-                    <div className="websiteFooter-Img2">
-                      <img src={Twitter} />
+                  <p className="websiteFooter-Txt2">Social Media</p>
+                  <div className="websiteFooter-Box4">
+                    <div>
+                      <img className="websiteFooter-Img3" src={Twitter} />
                     </div>
                     <div className="">
-                      <img className="websiteFooter-Img2" src={Instagram} />
+                      <img className="websiteFooter-Img3" src={Instagram} />
                     </div>
                     <div>
                       <img src={Facebook} />
                     </div>
                     <div className="">
-                      <img className="websiteFooter-Img2" src={Inimage} />
+                      <img className="websiteFooter-Img3" src={Inimage} />
                     </div>
                   </div>
                   <br />
-                  <p className="websiteFooter-Txt1">We Accept</p>
-                  <div style={{ display: "flex" }}>
+                  <p className="websiteFooter-Txt2">We Accept</p>
+                  <div className="websiteFooter-Box5">
                     <img src={Visa} />
                     <img src={visa2} />
                     <img src={Amex} />
@@ -99,7 +93,7 @@ function WebsiteFooter() {
           </Row>
         </div>
       </div>
-      <div className="websiteFooter-Boxes">
+      <div className="websiteFooter-Box6">
         Copyright @ fabroleather | Powered by BairuhaTech
       </div>
     </>
