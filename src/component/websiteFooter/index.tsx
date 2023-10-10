@@ -13,7 +13,7 @@ import vector1 from "../../asset/image/Frame 86.png";
 import {AiFillTwitterCircle} from "react-icons/ai";
 import {BiLogoFacebookCircle} from "react-icons/bi";
 import { Link} from 'react-router-dom';
-import { Input} from 'antd';
+import { Button, Input} from 'antd';
 
 
 function WebsiteFooter() {
@@ -72,7 +72,7 @@ function WebsiteFooter() {
                    allowClear
                    enterButton="SUBSCRIBE"
                    size="large"
-                   className="customButton"
+                   className="custom-search"
                   />
               </div>
               <div className="footerMedia_Box2">
