@@ -11,23 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 @font-face {
-  font-family: "Poppins-ExtraBold";
-  src: url(./asset//fonts//Montserrat-ExtraBold.ttf) format("truetype");
+  font-family: "Montserrat-ExtraBold";
+  src: url(./asset//fonts/Montserrat-ExtraBold.ttf) format("truetype");
 }
+
 @font-face {
-  font-family: "Poppins-Bold";
+  font-family: "Montserrat-Bold";
   src: url(./asset/fonts/Montserrat-Bold.ttf) format("truetype");
 }
+
 @font-face {
-  font-family: "Poppins-SemiBold";
+  font-family: "Montserrat-SemiBold";
   src: url(./asset/fonts/Montserrat-SemiBold.ttf) format("truetype");
 }
+
 @font-face {
-  font-family: "Poppins-Medium";
+  font-family: "Montserrat-Medium";
   src: url(./asset/fonts/Montserrat-Medium.ttf) format("truetype");
 }
+
 @font-face {
-  font-family: "Poppins-Regular";
+  font-family: "Montserrat-Regular";
   src: url(./asset/fonts/Montserrat-Regular.ttf) format("truetype");
 }
