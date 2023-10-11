@@ -13,6 +13,7 @@ class WebsiteHeader extends Component {
   };
   render() {
     return (
+      <div>
       <div className="header1">
         <div className="header2">
           <div className="navbar">
@@ -49,6 +50,7 @@ class WebsiteHeader extends Component {
             className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
           />
         </div>
+      </div>
       </div>
     );
   }
