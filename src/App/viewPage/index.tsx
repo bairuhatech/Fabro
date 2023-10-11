@@ -6,7 +6,7 @@ import image from '../viewPage/img/cover2.png';
 import rs from '../viewPage/img/Frame 128.png';
 import Frame from "../viewPage/img/Frame 152.png";
 // import mainLogo from '../viewPage/img/miniHome.png'
-import frame from '../../asset/viewPage/img/Frame132.png'
+import frame from '../../asset/image/Frame 132.png'
 
 const ViewPageScreen = () => {
     return (
