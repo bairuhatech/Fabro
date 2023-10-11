@@ -2,31 +2,30 @@
 
 .contactScreen-Box1 {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   @media screen and (min-width: 320px) and (max-width: 768px) {
     height: 100%;
   }
 }
 .contactScreen-Box2 {
   width: 100%;
-  height: 85vh;
+  min-height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
   @media screen and (min-width: 320px) and (max-width: 768px) {
-    height: auto;
+    height: 100%;
   }
 }
 .contactScreen-Box3 {
-  width: 80%;
-  height: 60vh;
+  width: 70%;
+  min-height: 60vh;
 
   @media screen and (min-width: 320px) and (max-width: 768px) {
-    height: auto;
+    height: 100%;
     width: 90%;
   }
 }
-
 .contactScreen-Box4 {
   width: 100%;
   height: 15vh;
@@ -48,7 +47,6 @@
 .contactScreen-Box6 {
   width: 50px;
 }
-
 .contactScreen-Txt1 {
   font-family: vars.$Montserrat-Bold;
   font-size: 30px;

@@ -24,7 +24,6 @@ const FindYourProjuct = () => {
   return (
     <div>
       <div className="findYourProjuct-Box1">Our Product Collections</div>
-      {/* <div className="findYourProjuct-Box2"> */}
       <Row>
         {productData.map((product, index) => (
           <Col md={2} sm={4} xs={6} key={index}>
@@ -36,7 +35,6 @@ const FindYourProjuct = () => {
         ))}
       </Row>
     </div>
-    // </div>
   );
 };
 

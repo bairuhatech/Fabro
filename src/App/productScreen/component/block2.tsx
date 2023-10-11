@@ -24,7 +24,8 @@ const ProductCollection = () => {
   ];
 
   return (
-    <div>
+    // <div>
+    <>
       <div className="productCollection-Box1">Find Your Projects</div>
       <div className="productCollection-Box2">
         <div className="productCollection-Box3">
@@ -69,7 +70,7 @@ const ProductCollection = () => {
         </div>
       </div>
       <br />
-    </div>
+    </>
   );
 };
 
