@@ -1,6 +1,6 @@
 import React from "react";
 import WebsiteFooter from "../../component/websiteFooter";
-import WebsiteHeader from "../../component/websiteHeader";
+import WebsiteHeader from '../../component/websiteHeader';
 import "./styles.scss";
 import Car from "../../asset/image/image 18.png";
 import CarSeat from "../../asset/image/image 17.png";
@@ -10,7 +10,7 @@ import { Carousel } from "antd";
 function HomeScreen() {
   return (
     <div className="homeScreen-Box1">
-      {/* <WebsiteHeader /> */}
+      { <WebsiteHeader /> }
       <div className="homeScreen-Box2">
         <div>
           <Carousel autoplay dotPosition="right" effect="fade">
@@ -23,6 +23,7 @@ function HomeScreen() {
           </Carousel>
         </div>
         <div className="homeScreen-Box3">
+          
           <div className="homeScreen-Box4">
             <div className="homeScreen-Box5">
               <div className="homeScreen-Box6">
