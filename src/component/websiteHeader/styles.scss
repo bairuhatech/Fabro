@@ -1,164 +1,295 @@
-.header {
-  width:100vw;
-  height: Hug(96px);
-  background-color: transparent;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+// .header {
+//   width:100vw;
+//   height: Hug(96px);
+//   background-color: transparent;
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   position: fixed;
+//   top: 0;
+//   z-index: 1000;
+
+//   @media screen and (min-width: 320px) and (max-width: 768px) {
+//     width: 100vw;
+//     height: 96px;
+//   }
+//   @media screen and (min-width: 0px) and (max-width: 768px) {
+//     height: 100px;
+//     .nav-menu{
+//       display:flex;
+//       flex-direction: column;
+//       font-size: small;
+//       color: white;
+//     }
+//   }
+//   @media screen and (min-width: 769px) and (max-width: 1600px) {
+//     height: 76px;
+//   }
+// }
+// .header1{
+// width: Fixed(1,780px);
+// height: Hug(49.14px);
+// top: 20px;
+// left: 70.18px;
+// margin-top: 20px;
+// right: 0px;
+// display: flex;
+// justify-content: space-around;
+
+// }
+// .header2 {
+// padding-right: 160px;
+// margin-left: 60px;
+// display: flex;
+// justify-content: space-between;
+// }
+// .navbarr{
+
+// }
+// .logo{
+// width: Fixed(100px);
+// height: Hug(49.14px);
+
+// }
+// .navbar-right{
+// width: Fixed(896.54px);
+// height: Hug(34px);
+// gap: 4px;
+// display: flex;
+// justify-content: space-between;
+// padding-top: 10px;
+
+// }
+// .button{
+//   width: Fixed(268px);
+// height: Hug(32px);
+// border-radius: 90px;
+//   border: 1px;
+//   gap: 8px;
+//  margin-left: 200px;
+//   padding-top: 5px;
+// }
+
+//  .buttonn{
+//   width: Fixed(15.78px);
+// height: Hug(15.78px);
+// top: 7.61px;
+// left: 7.61px;
+// border: 1.5px solid white;
+// padding-left: 200px;
+// border-radius: 90px;
+//  }
+
+// .home{
+// padding: 5px 24.64px 5px 24.83px;
+// border-radius: 0px;
+// margin-left: -20px;
+// }
+
+// .nav-menu{
+//   display: flex;
+//   font-size: small;
+//   color: white;
+
+// }
+// .home:active{
+// border-bottom: 2px solid red;
+// }
+// .about:active{
+// border-bottom: 2px solid red;
+// }
+// .products:active{
+//   border-bottom: 2px solid red;
+//   }
+// .contact:active{
+//     border-bottom: 2px solid red;
+//     }
+
+// .about{
+// width: Fill(102.33px);
+// height: Hug(34px);
+// padding: 5px 24.57px 5px 24.76px;
+// border-radius: 0px;
+// margin-left: -20px;
+// }
+
+// .contact{
+// width: Fill(143.13px);
+// height: Hug(34px);
+// padding: 5px 24.47px 5px 24.67px;
+// border-radius: 0px;
+// margin-left: -30px;
+
+// }
+// .products{
+// width: Fill(132px);
+// height: Hug(34px);
+// padding: 5px 25px 5px 25px;
+// border-radius: 0px;
+// margin-left: -30px;
+
+// }
+// .cart{
+//   width: Fill(131.1px);
+//   height: Hug(32px);
+//   padding: 0px 0px 0px 40px;
+//   gap: 12px;
+//   display: flex;
+//   justify-content: space-between;
+//  margin-left: -10px;
+// }
+// .carts{
+//   width: Fill(41.1px);
+// height: Hug(31.1px);
+// border-radius: 22.75px;
+// padding-top: 5px;
+// margin-left: -10px;
+// }
+// .cart-count{
+// font-family: Montserrat;
+// font-size: 17px;
+// font-weight: 600;
+// line-height: 2.6px;
+// letter-spacing: 0em;
+// text-align: left;
+// padding-top: 13px;
+// }
+// #mobile{
+// display: none;
+// }
+@use "../../config/variables.scss" as vars;
+
+.websiteHeader-Box1 {
+  height: 70px;
+  width: 100%;
+  position: absolute;
   position: fixed;
-  top: 0;
-  z-index: 1000;
-  
-  @media screen and (min-width: 320px) and (max-width: 768px) {
-    width: 100vw;
-    height: 96px;
-  }
-  @media screen and (min-width: 0px) and (max-width: 768px) {
-    height: 100px;
-    .nav-menu{
-      display:flex;
-      flex-direction: column;
-      font-size: small;
-      color: white;
-    }
-  }
-  @media screen and (min-width: 769px) and (max-width: 1600px) {
-    height: 76px;
-  }
-}
-.header1{
-width: Fixed(1,780px);
-height: Hug(49.14px);
-top: 20px;
-left: 70.18px;
-margin-top: 20px;
-right: 0px;
-display: flex;
-justify-content: space-around;
-
-}
-.header2 {
-padding-right: 160px;
-margin-left: 60px;
-display: flex;
-justify-content: space-between;
-}
-.navbarr{
-
-}
-.logo{
-width: Fixed(100px);
-height: Hug(49.14px);
-
-
-}
-.navbar-right{
-width: Fixed(896.54px);
-height: Hug(34px);
-gap: 4px;
-display: flex;
-justify-content: space-between;
-padding-top: 10px;
-
-}
-.button{
-  width: Fixed(268px);
-height: Hug(32px);
-border-radius: 90px;
-  border: 1px;
-  gap: 8px;
- margin-left: 200px;
-  padding-top: 5px;
-}
-
- .buttonn{
-  width: Fixed(15.78px);
-height: Hug(15.78px);
-top: 7.61px;
-left: 7.61px;
-border: 1.5px solid white;
-padding-left: 200px;
-border-radius: 90px;
- }
-
-
-.home{
-padding: 5px 24.64px 5px 24.83px;
-border-radius: 0px;
-margin-left: -20px;
-}
-
-.nav-menu{
+  z-index: 100;
   display: flex;
-  font-size: small;
-  color: white;
-  
+  padding: 40px;
 }
-.home:active{
-border-bottom: 2px solid red;
+.websiteHeader-Box2 {
+  width: 100%;
 }
-.about:active{
-border-bottom: 2px solid red;
-}
-.products:active{
-  border-bottom: 2px solid red;
-  }
-.contact:active{
-    border-bottom: 2px solid red;
-    }
-      
-
-.about{
-width: Fill(102.33px);
-height: Hug(34px);
-padding: 5px 24.57px 5px 24.76px;
-border-radius: 0px;
-margin-left: -20px;
-}
-
-.contact{
-width: Fill(143.13px);
-height: Hug(34px);
-padding: 5px 24.47px 5px 24.67px;
-border-radius: 0px;
-margin-left: -30px;
-
-}
-.products{
-width: Fill(132px);
-height: Hug(34px);
-padding: 5px 25px 5px 25px;
-border-radius: 0px;
-margin-left: -30px;
-  
-  
-
-}
-.cart{
-  width: Fill(131.1px);
-  height: Hug(32px);
-  padding: 0px 0px 0px 40px;
-  gap: 12px;
+.websiteHeader-Box3 {
+  width: 100%;
   display: flex;
+  justify-content: center;
+}
+.websiteHeader-Box4 {
+  display: flex;
+  width: 90%;
   justify-content: space-between;
- margin-left: -10px;
 }
-.carts{
-  width: Fill(41.1px);
-height: Hug(31.1px);
-border-radius: 22.75px;
-padding-top: 5px;
-margin-left: -10px;
+.cart-count {
+  display: flex;
+  justify-content: space-around;
+  width: 14%;
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 14px;
+  color: #fff;
 }
-.cart-count{
-font-family: Montserrat;
-font-size: 17px;
-font-weight: 600;
-line-height: 2.6px;
-letter-spacing: 0em;
-text-align: left;
-padding-top: 13px;
+.websiteHeader-Txt1 {
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 14px;
+  color: #fff;
 }
-#mobile{
-display: none;
+.logo {
+  width: 126px;
+  height: 60px;
+}
+/////////////////////toggle icon--------
+#checkbox {
+  display: none;
+}
+
+.toggle {
+  position: relative;
+  width: 40px;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+  height: calc(4px * 3 + 11px * 2);
+}
+
+.bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 4px;
+  border-radius: calc(4px / 2);
+  background: black;
+  color: inherit;
+  opacity: 1;
+  transition: none 0.35s cubic-bezier(0.5, -0.35, 0.35, 1.5) 0s;
+}
+
+.abcd {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  @media screen and (min-width: 786px) {
+    display: none;
+    .websiteHeader-Box4 {
+      display: block;
+    }
+  }
+  @media screen and (max-width: 786px) {
+    display: block;
+  }
+}
+
+.websiteHeader-Box4 {
+  @media screen and (max-width: 786px) {
+    display: none;
+  }
+}
+.websiteHeader-Box2 {
+  @media screen and (max-width: 786px) {
+    display: none;
+  }
+}
+.websiteHeader-Box3 {
+  @media screen and (max-width: 786px) {
+    display: flex;
+    justify-content: end;
+  }
+}
+
+/***** Tornado Animation *****/
+
+.bar--top {
+  bottom: calc(50% + 11px + 4px / 2);
+  transition-property: bottom, transform;
+  transition-delay: calc(0s + 0.35s) * 0.6;
+}
+
+.bar--middle {
+  top: calc(50% - 4px / 2);
+  transition-property: opacity, transform;
+  transition-delay: calc(0s + 0.35s * 0.3);
+}
+
+.bar--bottom {
+  top: calc(50% + 11px + 4px / 2);
+  transition-property: top, transform;
+  transition-delay: 0s;
+}
+
+#checkbox:checked + .toggle .bar--top {
+  transform: rotate(-135deg);
+  transition-delay: 0s;
+  bottom: calc(50% - 4px / 2);
+}
+
+#checkbox:checked + .toggle .bar--middle {
+  opacity: 0;
+  transform: rotate(-135deg);
+  transition-delay: calc(0s + 0.35s * 0.3);
+}
+
+#checkbox:checked + .toggle .bar--bottom {
+  top: calc(50% - 4px / 2);
+  transform: rotate(-225deg);
+  transition-delay: calc(0s + 0.35s * 0.6);
 }

@@ -8,7 +8,7 @@ import ContactScreen from "./contactScreen";
 const Home = () => {
   return (
     <>
-      {/* <WebsiteHeader /> */}
+      <WebsiteHeader />
       <HomeScreen />
       <ProductScreen />
       <ContactScreen />

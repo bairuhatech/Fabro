@@ -20,10 +20,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+  }
 }
 .homeScreen-Box5 {
   width: 377px;
   height: 325px;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    width: 258px;
+  }
 }
 .homeScreen-Box6 {
   width: 100%;
@@ -33,6 +42,15 @@
   display: flex;
   width: 400px;
   justify-content: space-between;
+
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    width: 100%;
+    flex-direction: column;
+    height: 100px;
+  }
+  .homeScreen-Box9 {
+    display: none;
+  }
 }
 .homeScreen-Box10 {
   width: 100%;
